@@ -15,7 +15,7 @@
     display: flex;
     font-size: 16px;
     width: 360px;
-    justify-content: space-between;
+    gap: 38px;
 }
 
 .main-menu a {
@@ -27,3 +27,23 @@
     font-size: 36px;
 }
 
+@media (min-width: 768px){
+    .collapse {
+        justify-content: end;
+    }
+
+    .main-menu {
+        justify-content: end;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1200px){
+    .main-menu {
+        margin-right: 150px;
+    }
+
+    .main-navbar {
+        padding-left: 150px;
+    }
+}

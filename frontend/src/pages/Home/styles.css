@@ -29,6 +29,7 @@ main {
 .text-container {
     color: #FFF;
     text-align: center;
+    font-weight: 300;
 }
 
 .text-container h3 {
@@ -77,6 +78,10 @@ main {
     .top-container, .bottom-container {
         width: 536px;
     }
+
+    .top-container {
+        margin: 30px 20px;
+    }
     
     .img-container img {
         width: 333px;
@@ -105,7 +110,6 @@ main {
     }
     
     .button-container h6 {
-        color: #FFF;
         font-size: 14px;
         margin: 12px 36px;
     }
@@ -115,7 +119,83 @@ main {
     }
     
     .bottom-text-container p {
-        color: #585858;
         margin: 51px 62px 51px 13px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .top-container {
+        width: 728px;
+        height: 475px;
+    }
+
+    .bottom-container {
+        width: 728px;
+    }
+
+    .img-container img {
+        margin: 79px 198px 0px 198px;
+    }
+
+    .text-container {
+        margin-top: 37px;
+    }
+}
+
+@media (min-width: 992px){
+    .top-container {
+        width: 952px;
+        height: 579px;
+        margin: 30px 150px;
+    }
+
+    .bottom-container {
+        width: 952px;
+    }
+
+    .img-container img {
+        width: 455px;
+        height: 272px;
+        margin: 82px 248px 0px 248px;
+    }
+
+    .text-container {
+        margin-top: 37px;
+    }
+}
+
+@media (min-width: 1200px){
+    .top-container {
+        width: 979px;
+        height: 365px;
+        margin: 30px 150px;
+        flex-direction: row-reverse;
+    }
+
+    .bottom-container {
+        width: 979px;
+    }
+
+    .img-container img {
+        width: 333px;
+        height: 199px;
+        margin: 83px 78px 83px 0;
+    }
+
+    .text-container {
+        text-align: left;
+        margin: 140px 63px 140px 85px;
+    }
+
+    .text-container h3 {
+        font-size: 36px;
+        margin: 0;
+    }
+    
+    .text-container p {
+        font-size: 18px;
+        width: 420px;
+        margin: 0;
     }
 }

@@ -18,7 +18,7 @@ function Home() {
       </div>
       <div className="bottom-container">
         <div className="button-container">
-          <Link to="/products">
+          <Link to="/catalogo">
             <h6 className="text-uppercase fw-bold">ver catálogo</h6>
           </Link>
         </div>
