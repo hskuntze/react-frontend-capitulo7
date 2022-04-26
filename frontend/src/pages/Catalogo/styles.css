@@ -3,6 +3,24 @@
     margin: 0px;
 }
 
+@media (min-width: 552px){
+    .products {
+        margin: 0px -20px 0px -20px;
+    }
+}
+
+@media (min-width: 768px){
+    .products {
+        margin: 0px -30px 0px -30px;
+    }
+}
+
+@media (min-width: 992px){
+    .products {
+        margin: 0px -20px 0px -20px;
+    }
+}
+
 @media (min-width: 1200px){
     .col-lg-4 {
         margin: 0;
@@ -14,6 +32,13 @@
     }
 
     .products {
-        margin: 0px 150px 0px 150px;
+        margin: 0px 55px 0px 55px;
+    }
+}
+
+@media (min-width: 1400px){
+
+    .products {
+        margin: 0px 145px 0px 145px;
     }
 }
