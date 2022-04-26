@@ -34,7 +34,7 @@
     border-radius: 0px 5px 5px 0px;
 }
 
-.search-button button {
+.search-button button, .search-button button:hover {
     color: #FFF;
     padding: 6px;
 }
